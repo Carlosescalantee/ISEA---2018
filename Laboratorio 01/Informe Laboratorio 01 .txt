@@ -1,0 +1,36 @@
+Carlos Escalante Menauth - Grupo "B"
+
+---------------------------------------------------------------------------------------------
+2. Instalacion del software ERP-ODOO en Windows
+ 2.2 --> (Imagen 01, Imagen 02, Imagen 03, Imagen 04, Imagen 05, Imagen 06, Imagen 07,
+          Imagen 08, Imagen 09, Imagen 10, Imagen 11)
+ 2.4 --> (Imagen 12)
+ 2.5 --> (Imagen 13)
+ Instalacion de PgAdmin --> (Imagen 14, Imagen 15, Imagen 16, Imagen 17, Imagen 18,
+                             Imagen 19, Imagen 20, Imagen 21, Imagen 22)
+ 2.6 --> (Imagen 23)
+
+4.Acceder al software ERP-ODOO
+ 4.1 --> (Imagen 24)
+ 4.2 --> (Imagen 25)
+ 4.3 --> (Imagen 26)
+
+
+Tarea:
+
+1. Complete la siguiente tabla sobre los principales módulos disponibles en ODOO.
+
+   (Imagen 27)
+ 
+2. Complete la siguiente tabla sobre los principales productos ERP disponibles en la actualidad.
+    
+   (Imagen 28)
+
+Observaciones y Conclusiones:
+
+• Se logro configurar, instalar y levantar el sistema ERP ODOO, e inicializarlo desde nuestro servidor local en nuestro equipo.
+• Para iniciar nuestra aplicacion, es necesario loguearse con las credenciales de la base de datos a utilizar.
+• Odoo cuenta con una interfaz muy amigable, y cuenta con muchas aplicaciones, modulos dentro de su sistema.
+• Odoo y toda su idea de negocio para usuarios y empresas se organiza en modulos ya configurados y desarrollados.
+• Odoo utiliza como gestor de base de datos PostgreSQL, y podemos ver la actividad de esta, mediante el software PgAdmin.
+• La mayoria de modulos de ventas, negocios, etc, importantes de Odoo son gratuitos, lo cual lo hace un sistema muy accesible.
