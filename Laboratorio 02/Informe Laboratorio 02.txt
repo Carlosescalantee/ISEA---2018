@@ -1,0 +1,54 @@
+Carlos Escalante Menauth - Grupo "B"
+
+---------------------------------------------------------------------------------------------------------------------
+
+1. Inicio del software ODOO
+ 1.5 --> (Imagen 01)
+
+2. Listado de modulos en ODOO
+ 2.1 --> (Imagen 02)
+ 2.2 --> (Imagen 03)
+ 2.3 --> (Imagen 04)
+ 2.4 --> (Imagen 05)
+ 2.5 --> (Imagen 06)
+ 2.6 --> (Imagen 07)
+ 2.7 --> (Imagen 08)
+
+3. Instalacion del modulo "Proyecto" en ODOO
+ 3.4 --> (Imagen 09)
+ 3.6 --> (Imagen 10)
+
+4. Identificacion del Tablero de opciones
+ 4.1 --> (Gestion de Ausencias - Punto de Venta - CRM)
+ 4.5 --> (Imagen 11)
+
+5.Creacion de un modulo en ODOO
+ 5.6 --> Se genero el siguiente error al utilizar el CMD, por lo que se tuvi que crearlo manualmente(Imagen 12)
+ 5.7 --> (Imagen 13)
+ 5.8 --> (Imagen 14)
+ 5.9 --> (Imagen 15)
+ 5.10 --> (Imagen 16)
+ 5.13 --> (Imagen 17)
+ 5.14 --> (Imagen 18)
+ 5.15 --> (Imagen 19)
+ 5.16 --> (Imagen 20)
+ 5.17 --> (Imagen 21)
+
+
+Tarea:
+
+1. Elabore una descripcion breve de la funcionalidad que tiene cada uno de los elementos(archivos y/o carpetas) que se
+   han creado como parte del nuevo modulo en la siguiente tabla.
+	
+   (Imagen 22)
+
+Observaciones y Conclusiones:
+
+• Se instalo y analizo, algunos de los principales modulos de Odoo, ademas de crear un modulo nosotros mismos.
+• Se pudo crear modulos mediante comandos, aunque en algunos casos se tiene errores, por lo que mas facil y rapido,
+  podemos copiar el modulo directamente a nuestra carpeta addons, basta con actualizar las aplicaciones en Odoo y ya esta.
+• Se comprendio la funcionalidad de cada uno de los elementos disponible y visibles que tiene un modulo creado en Odoo.
+• Oddo tiene un sistema completo de busqueda, tableros, una configuracion, y un menu muy facil de entender.
+• Se activo el modo desarrollador, el cual nos muestra informacion detallada de codigo, campos de los formularios, es decir
+  si colocamos el cursor encima de algun campo de un formulario, Odoo nos dice el nombre del campo, a que tabla pertenece, 
+  el tipo de campo, etc.
