@@ -1,0 +1,102 @@
+Carlos Escalante Menauth - Grupo "B"
+
+---------------------------------------------------------------------------------------------
+
+1. Inicio del software ODOO
+ 1.3 --> (Imagen 01)
+
+2. Instalacion del modulo CRM
+ 2.2 --> (Imagen 02)
+ 2.4 --> (Imagen 03)
+
+3. Configuracion ODOO CRM-Planificador de ventas
+ 3.1 --> (Imagen 04)
+ 3.2 --> (Imagen 05)
+ 3.3 --> (Imagen 06)
+ 3.4 --> (Imagen 07)
+ 3.5 --> (Imagen 08)
+ 3.6 --> (Imagen 09)
+ 3.7 --> (Imagen 10)
+ 3.8 --> (Imagen 11)
+ 3.9 --> (Imagen 12)
+ 3.10 --> (Imagen 13)
+ 3.11 --> (Imagen 14)
+ 3.12 --> (Imagen 15)
+ 3.13 --> (Imagen 16)
+ 3.14 --> (Imagen 17)
+ 3.15 --> (Imagen 18)
+ 3.16 --> (Imagen 19)
+ 
+4.Configuracion ODOO CRM-Clientes
+ 4.1 --> (Imagen 20)
+ 4.3 --> (Imagen 21)
+ 4.5 --> (Imagen 22)
+ 4.8 --> (Imagen 23)
+ 4.10 --> (Imagen 24)
+
+5. Equipo de Ventas-Equipo de ventas directas
+ 5.1 --> (Imagen 25)
+ 5.3 --> (Imagen 26)
+ 5.5 --> (Imagen 27)
+ 5.6 --> (Imagen 28)
+ 5.7 --> (Imagen 29)
+ 5.8 --> (Imagen 30)
+ 5.9 --> (Imagen 31)
+ 5.10 --> (Imagen 32)
+ 5.12 --> (Imagen 33)
+
+6. Iniciativas y/o oportunidades en ODOO
+ 6.2 --> Adicionar manualmente un contacto
+   1 --> (Imagen 34)
+   3 --> (Imagen 35)
+   5 --> (Imagen 36)
+   7 --> (Imagen 37)
+   8 --> (Imagen 38)
+   9 --> (Imagen 39)
+   10 --> (Imagen 40)
+   11 --> (Imagen 41)
+ 6.3 --> Crear una nueva oportunidad
+   1 --> (Imagen 42)
+   5 --> (Imagen 43)
+   7 --> (Imagen 44)
+
+7. Generar iniciativas desde el sitio web de ODOO
+ 7.1 --> (Imagen 46)
+ 7.2 --> (Imagen 47)
+ 7.4 --> (Imagen 48)
+ 7.5 --> (Imagen 49)
+ 7.7 --> (Imagen 50)
+ 7.8 --> (Imagen 51)
+ 7.9 --> (Imagen 52)
+ 7.10 --> (Imagen 53)
+ 7.11 --> (Imagen 54)
+ 7.12 --> (Imagen 55)
+ 7.14 --> (Imagen 56)
+ 7.15 --> (Imagen 57)
+ 7.16 --> (Imagen 58)
+ 7.17 --> (Imagen 59 - Imagen 60 - Imagen 61 - Imagen 62)
+	  (Imagen 63 - Imagen 64 - Imagen 65 - Imagen 66)
+
+
+Tarea:
+
+1. Describa el procedimiento para importar contactos/clientes desde un archivo CSV.
+   
+   • Creamos un archivo Excel xlsx con algunos de los campos que podemos ver al crear un cliente. (Imagen 67)
+   • Seleccionamos Clientes --> Importar, cargamos el fichero Excel, podemos modificar algunos capos que esten mal escritos
+     o definidos y seleccionamos el boton Importar Nuevamente. (Imagen 68)
+   • Verificamos la creacion del nuevo cliente importado. (Imagen 69)
+
+2. Mejore la presentación del módulo Website instalado adicionando mayor cantidad de elementos disponibles en su editor. 
+	(Imagen 70 - Imagen 71)
+
+Observaciones y Conclusiones:
+
+• Se logro importar clientes mediante archivos externos creados manualmente, definiendo los campos que se observan al crear nuevos clientes,
+  ademas que al cargar el fichero y haya posibles errores de sintaxis en los campos, este muestra la lista de campos correctamente para corregir y lo cargamos.
+• Se tuvo problemas a la hora de seguir el laboratorio con los nombres de los modulos, puntos y pestañas debido a que en cada version de Odoo cambia un poco la interfaz,
+  las herramientas, y el nombre de algunas secciones.
+• En el desarrollo del laboratorio, se instalo y configuro el modulo CRM, donde se creo clientes, equipos para ventas, donde agregamos miembros, iniciativas convertidas
+  en opotunidades y contactos para todo nuestro modulo CRM.
+• Creamos y diseñamos nuestra WebSite a partir de modulos, donde la creacion de la interfaz es muy sencilla y facil de crear, ademas de que mediante otros modulos,
+  esta se complementa y los añade como herramientas e items a nuestro sitio web.
