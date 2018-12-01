@@ -1,0 +1,81 @@
+<odoo>
+    <data>
+
+        <!-- explicit list view definition -->
+
+        <record model="ir.ui.view" id="matriculas.list_cursos_tree">
+            <field name="name">matriculas.cursos.listado.tree</field>
+            <field name="model">matriculas.curso</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="profesor"/>
+                    <field name="informacion"/>
+                    <field name="horas"/>
+                    <field name="area_ids">
+                        <tree string="Area">
+                            <field name="name"/>
+                            <field name="informacion"/>
+                        </tree>
+                    </field>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="matriculas.list_cursos_form">
+            <field name="name">matriculas.cursos.listado.form</field>
+            <field name="model">matriculas.curso</field>
+            <field name="arch" type="xml">
+                <form string="Ventana del Módulo">
+                    <sheet>
+                    <div class = "oe_title">
+                        <label for="name" class="oe_edit_only" string="Nombre">Nombre del Curso</label>
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                    <div class = "oe_title">
+                        <label for="name" class="oe_edit_only" string="Profesor">Nombre del Profesor</label>
+                        <h1>
+                            <field name="profesor"/>
+                        </h1>
+                    </div>
+                    <separator string="Informacion Adicional" colspan="2"/>
+                    <group colspan="2" col="2">                        
+                        <field name="informacion"/>
+                        <field name="horas"/>
+                        <field name="area_ids"/>
+                    </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        
+        <record model="ir.actions.act_window" id="matriculas.action_window_cursos">
+            <field name="name">Cursos</field>
+            <field name="res_model">matriculas.curso</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- server action to the one above -->
+        <!--
+    <record model="ir.actions.server" id="convalidaciones.action_server">
+      <field name="name">convalidaciones server</field>
+      <field name="model_id" ref="model_convalidaciones_convalidaciones"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+        <menuitem name="Curso" id="matriculas.cursos" parent="matriculas.menu_root"/>
+        <!-- actions -->
+        <menuitem name="Listado de Cursos" id="matriculas.cursos_list" parent="matriculas.cursos" action="matriculas.action_window_cursos"/>
+    </data>
+</odoo>

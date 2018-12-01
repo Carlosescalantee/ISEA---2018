@@ -1,0 +1,73 @@
+
+Carlos Escalante Menauth - Grupo "B"
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ • Asignacion de Tareas
+
+ 2.1 Base de datos limpia (no con data de demostración) --> (Imagen 01, Imagen 02, Imagen 03)
+ 
+ 2.2 Empresa ACME con logo de Tecsup. --> (Imagen 04, Imagen 05, Imagen 06)
+
+ 2.3 Creación de al menos 30 productos tecnológicos. 
+     Tres deben ser creados manualmente y el resto subido a través de un csv.
+
+  -> Creando 3 productos --> (Imagen 07, Imagen 08, Imagen 09, Imagen 10, Imagen 11, Imagen 12, Imagen 13)
+  -> Exportando productos en un CSV --> (Imagen 14, Imagen 15)
+  -> Creacion e Importacion de 30 productos por un CSV (Imagen 16, Imagen 17, Imagen 18, Imagen 19, Imagen 20)
+  
+
+ 2.4 Realizar un ajuste de inventario para cada uno de estos productos. --> (Imagen 21, Imagen 22, Imagen 23, Imagen 24, Imagen 25, Imagen 26
+	
+	Imagen 27, Imagen 28, Imagen 29, Imagen 30, Imagen 31) 
+ 
+ 2.5 Instalar el punto de venta. --> (Imagen 32)
+
+  -> ANTES DE CONTINUAR CON LO REQUERIDO EN PUNTO DE VENTA, SE PERSONALIZO LOS PRODUCTOS, TANTO EN EL PRECIO DE VENTA COMO EN IMAGEN. --> (Imagen 33, Imagen 34)
+     
+ 2.6 Generar al menos 15 ventas en el Punto de Venta. No es necesario demostrar el funcionamiento del offline pero se tomará como punto adicional. --> (Imagen 35,
+     
+     Imagen 36, Imagen 37, Imagen 38, Imagen 39, Imagen 40, Imagen 41, Imagen 42, Imagen 43, Imagen 44, Imagen 45, Imagen 46, Imagen 47, Imagen 48, Imagen 49,
+     Imagen 50, Imagen 51, Imagen 52, Imagen 53, Imagen 54, Imagen 55, Imagen 56, Imagen 57, Imagen 58)
+
+     Modo Offline --> (Imagen 59, Imagen 60, Imagen 61)
+
+     Verificando Pedidos --> (Imagen 62, Imagen 63, Imagen 64)
+
+     Agregar un medio de pago llamado VISA. --> (Imagen 65, Imagen 66, Imagen 67, Imagen 68)
+ 
+ 2.7 Instalar el módulo de compras --> (Imagen 69)
+
+     -> Creando proveedor, Solicitud de presupuesto, Recepciones, Entregas parciales, Previsto y Movimientos de Producto --> (Imagen 70, Imagen 71, Imagen 72, Imagen 73, 
+
+        Imagen 74, Imagen 75, Imagen 76, Imagen 77, Imagen 78, Imagen 79, Imagen 80, Imagen 81, Imagen 82, Imagen 83, Imagen 84) 
+
+     -> Facturas de proveedor --> (Imagen 85, Imagen 86, Imagen 87, Imagen 88, Imagen 89, Imagen 90)
+
+     -> Proveedores --> (Imagen 91, Imagen 92, Imagen 93)
+
+     Generar al menos cinco compras de tres proveedores. --> (Imagen 94, Imagen 95, Imagen 96, Imagen 97, Imagen 98, Imagen 99, Imagen 100, Imagen 101, Imagen 102, Imagen 103) 
+
+ 2.8 Realizar la recepción parcial de dos compras, y el resto recepcionar el stock por completo. --> (Imagen 104, Imagen 105, Imagen 106, Imagen 107, Imagen 108, Imagen 109,
+     
+     Imagen 110, Imagen 111, Imagen 112, Imagen 113)
+
+ 2.9 Pagar solamente a dos proveedores completamente, mientras que al tercero solamente se le pagará una compra y tendrá pendiente un saldo. -->(Imagen 114, Imagen 115, Imagen 116
+ 
+     Imagen 117, Imagen 118, Imagen 119)  
+
+
+Observaciones y Conclusiones:
+
+ • En Odoo se trabaja con multibases de datos, es decir cada base de datos va a tener sus propios diferentes modulos instalados.
+
+ • El modulo Punto de Venta esta relacionado con otros modulos, como el inventario(productos), y cada que hagamos operaciones en dicho modulo,
+   se ve reflejado en los productos por ejemplo. 
+
+ • A la hora de realizar compras y boletas, podemos hacerlo modo offline, sin que afecte dicho funcionamiento ni la informacion.
+
+ • El modulo inventario nos permite llevar una cuenta del stock de los productos, cuando se haga compras o ventas, dicho modulo es muy beneficioso y eficaz para las empresas.
+ 
+ • El proceso para realizar pedidos en Odoo es muy completo, ya que este se basa hacer un pedido, luego validar el pedido, luego facturacion, entrega y recepcion, algo
+   que en un negocio o empresa distribuidora es muy provechoso.
+ 

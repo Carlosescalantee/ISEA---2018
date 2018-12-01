@@ -1,0 +1,68 @@
+<odoo>
+    <data>
+        
+        <!-- explicit list view definition -->
+
+        <record model="ir.ui.view" id="matriculas.list_areas_form">
+            <field name="name">matriculas.areas.listado.form</field>
+            <field name="model">matriculas.area</field>
+            <field name="arch" type="xml">
+                <form string="Area">
+                    <sheet>
+                    <div class = "oe_title">
+                        <label for="name" class="oe_edit_only" string="Nombre">Nombre del Area</label>
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                     <div class = "oe_title">
+                        <label for="name" class="oe_edit_only" string="Jefe de Area">Nombre del Jefe de Area</label>
+                        <h1>
+                            <field name="jefe_area"/>
+                        </h1>
+                    </div>
+                    <separator string="Informacion del Area" colspan="2"/>
+                    <group colspan="2" col="2">
+                            <field name="informacion"/>                            
+                            <field name="curso_ids"/>
+                    </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="matriculas.list_areas_tree">
+            <field name="name">matriculas.areas.listado_tree</field>
+            <field name="model">matriculas.area</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="informacion"/>
+                    <field name="jefe_area"/>
+                    <field name= "curso_ids">
+                        <tree string = "Cursos">
+                            <field name="name"/>
+                            <field name="profesor"/>
+                            <field name="informacion"/>
+                            <field name="horas"/>
+                        </tree>
+                    </field>
+                </tree>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="matriculas.action_window_areas">
+            <field name="name">Areas</field>
+            <field name="res_model">matriculas.area</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    
+        <!-- Top menu item -->
+        <!-- menu categories -->
+        <menuitem name="Areas" id="matriculas.areas" parent="matriculas.menu_root"/>
+        <!-- actions -->
+        <menuitem name="Listado de Areas" id="matriculas.areas_list" parent="matriculas.areas" action="matriculas.action_window_areas"/>
+    </data>
+</odoo>

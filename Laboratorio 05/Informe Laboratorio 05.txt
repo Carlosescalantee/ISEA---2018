@@ -1,0 +1,82 @@
+
+Carlos Escalante Menauth - Grupo "B"
+
+----------------------------------------------------------------------------------------------------------------------
+
+-> Creacion del modulo Convalidaciones-Scaffold --> (Imagen 01, Imagen 02, Imagen 03)
+
+-> Manifest.py --> (Imagen 04)
+
+-> Creacion del modelo Alumnos --> (Imagen 05)
+
+-> Vista Alumnos --> (Imagen 06, Imagen 07)
+
+-> Reiniciando Servicios --> (Imagen 08)
+
+-> Actualizando las aplicaciones y buscando Convalidaciones --> (Imagen 09)
+
+-> Modulo Convalidaciones --> (Imagen 10)
+
+-> Instalando Convalidaciones y creando alumno -> (Imagen 11, Imagen 12, Imagen 13)
+
+-> Implementando Modulos --> (Imagen 14, Imagen 15)
+
+-> Creacion del modelo Modulos --> (Imagen 16)
+
+-> Vista modulos --> (Imagen 17, Imagen 18)
+
+-> Actualizamos el modulo --> (Imagen 19)
+
+-> Probando funcionamiento de Modulos --> (Imagen 20, Imagen 21)
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Tarea:
+
+---> ¿Qué es el PETI?
+
+El Peti es una herramienta para ordenar los esfuerzos de incorporación de TI. Dicha herramienta establece las políticas 
+requeridas para controlar la adquisición, el uso y la administración de los recursos de TI. 
+Integra la perspectiva de negocios y organizacional con el enfoque de TI, estableciendo un desarrollo informático que responde 
+a las necesidades de la organización y contribuye al éxito de la empresa. Su desarrollo está relacionado con la creación de un 
+plan de transformación, que va del estado actual en que se encuentra la organización, esto, en concordancia con la estrategia 
+de negocios y con el propósito de crear una ventaja competitiva.
+
+Beneficios:
+
+• Alinear la tecnología informática con la estrategia general de la empresa.
+• Cubrir todas las necesidades de información que puedan ser objeto de tratamiento informático.
+• Facilitar la utilización compartida de información dentro y fuera de la empresa.
+• Definir y da soporte a un marco o arquitectura para el desarrollo integrado de aplicaciones y bases de datos.
+
+Etapas dentro del PETI:
+
+• Inicio del proyecto.
+• Análisis de la estrategia empresarial.
+• Determinar el perfil y evaluar los sistemas existentes- informática actual.
+• Análisis de las gerencias operacionales de la empresa.
+• Desarrollo del modelo Procesos/funcional de la empresa.
+• Desarrollo de la arquitectura de la TI
+• Desarrollo de los planes estratégicos y tácticos.
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+  Observaciones y Conclusiones:
+
+ • Odoo nos brinda una forma de crear por defecto modulos, con el comando Scaffold, en el cual solo se debe indicar
+  el nombre del modulo que se quiere crear, y el directorio donde va a ser creado.
+
+ • En Python la sintaxis se controla mediante la tabulacion, al igual que en otros lenguajes se limita por llaves, en 
+  este se define por espacios y tabulaciones.
+
+ • Es necesario reiniciar los servicios tanto de Odoo como de PostgreSQL, para que todos los cambios en el codigo y condiguracion
+  tengan efecto.
+
+ • Se creo modulos mediante comandos(Scaffold) con la configuracion por defecto que nos brinda Odoo, e implementamos interfaces 
+  y modelos, configuramos actualizamos y ejecutamos nuestros modulos.
+
+ • La principal diferencia entre modulos y aplicaciones en Odoo es, los modulos son piezas para la construccion de aplicaciones en Odoo,
+  en cambio las aplicaciones son mas funcionales y brindan un sistema base para un area funcional y cuentan con una caracteristica principal,
+  y a partir de esto, otros modulos agregan configuraciones, opciones, caracteristicas, etc
+ 

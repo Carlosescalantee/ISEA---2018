@@ -1,0 +1,92 @@
+
+Carlos Escalante Menauth - Grupo "B"
+
+---------------------------------------------------------------------------------------------------------------------
+ 
+ • Complementando modulo Convalidaciones - Parte 2
+
+
+-> Complementando modelo Alumno --> (Imagen 01)
+
+-> Agregando nuevas vistas al _manifest_py --> (Imagen 02)
+
+-> Creando modelo Convalidacion --> (Imagen 03)
+
+-> Creando vista Convalidaciones --> (Imagen 04, Imagen 05)
+
+-> Probando Vista Convalidaciones --> (Imagen 06, Imagen 07, Imagen 08, Imagen 09, Imagen 10, Imagen 11)
+
+-> Agregando nuevos campos del modelo a la Vista Alumno "provincia, localidad..." --> (Imagen 12, Imagen 13)
+
+-> Probando a Alumnos relacionado a Convalidaciones --> (Imagen 14, Imagen 15, Imagen 16, Imagen 17, Imagen 18)
+
+-> Verificando Alumnos y Convalidaciones --> (Imagen 19, Imagen 20) 
+
+-> Creando modelo Ciclo y relacionandolo con el modelo Modulo --> (Imagen 21, Imagen 22)
+
+-> Creando vista Ciclo --> (Imagen 23, Imagen 24)
+
+-> Declarandolo ciclo en la vista Modulo --> (Imagen 25)
+
+-> Probando ciclos --> (Imagen 26, Imagen 27, Imagen 28, Imagen 29, Imagen 30, Imagen 31, Imagen 32, Imagen 33)
+
+ 
+
+ • Documentacion para crear vistas en un modulo nuevo:
+
+
+ --> Primero se debe declarar las vistas que tendra nuestro modulo en el archivo _MANYFEST_.PY, una vez declaradas, procedemos a crear 
+     los modelos que manejaran nuestras vistas, con los campos, tipo de datos y el texto que se visualizara, luego comenzamos a crear los
+     formularios en nuestras vistas(archivos .xml), se debera declarar y crear el menu de nuestro modulo, la tabla donde se mostrara los 
+     datos ingresados, formularios de creacion de nuevos elementos, todo mediante los formularios TREE(este sera el que muestre la tabla
+     con la informacion creada, los campos, la relacion de los modelos) y FORM( este sera la interfaz donde se cree nuevos elementos, 
+     se edite los campos), y por ultimo en la etiqueta menuItem, podemos crear nuestro menu para nuestra vista del modulo.
+
+
+
+ • Modulo Matriculas
+
+-> Creacion del modulo --> (Imagen 34, Imagen 35, Imagen 36, Imagen 37, Imagen 38)
+
+-> Creacion de modelo Alumnos --> (Imagen 39)
+
+-> Creacion de vista Alumnos --> (Imagen 40, Imagen 41)
+
+-> Probando vista Alumnos --> (Imagen 42, Imagen 43)
+
+-> Creacion de modelo Cursos --> (Imagen 44)
+
+-> Creacion de vista Cursos --> (Imagen 45, Imagen 46, Imagen 47)
+
+-> Probando vista Cursos --> (Imagen 48, Imagen 49, Imagen 50)
+
+-> Creacion de modelo Areas--> (Imagen 51)
+
+-> Creacion de vista Areas --> (Imagen 52, Imagen 53)
+
+-> Probando vista Areas --> (Imagen 54, Imagen 55, Imagen 56)
+
+-> Creacion de modelo Matriculas --> (Imagen 57)
+
+-> Creacion de vista Matriculas --> (Imagen 58, Imagen 59)
+
+-> Probando vista Matriculas --> (Imagen 60, Imagen 61, Imagen 62, Imagen 63)
+ 
+
+  Observaciones y Conclusiones:
+
+ • Odoo es muy sensible con fallos y errores de codigo en los modulos, ya que al haber errores, odoo no puede cargar un modulo y esto nos puede generar 
+   un error en el servidor de la aplicacion.
+
+ • Siempre es necesario reiniciar los servicios tanto de Odoo como PostGreSQL, por mas minimo que sea el cambio en el codigo tanto de vistas, como modelos, 
+   como el manifiesto y queramos saltar a trabajar con otra vista o modelo, y asi poder evitar errores en conjunto mas adelante.
+
+ • Se trabajo mas a fondo como desarrollar modulos en Odoo, desde personalizar vistas, declarar modelos y las relaciones entre estos, la creacion de 
+   formularios y de menus para las vistas.
+
+ • Para lograr que haya relacion entre los modelos y las vistas, se debe crear identificadores de los modelos y llamarlos desde otro modelo y desde una 
+   vista con los campos respectivos.
+
+ • En las interfaces del modulo, siempre va a haber 3 tipos de vistas, una es TREE y la FORM y el menu para la interfaz; TREE, las cuales se encargan de 
+   visualizar los elementos creados en una tabla; FORM, formularios para crear nuevos elementos, editarlos y visualizarlos; y MENUITEM, un menu donde estaran 
+   todas las vistas del modulo y poder verlas.

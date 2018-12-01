@@ -1,0 +1,56 @@
+
+Carlos Escalante Menauth - Grupo "B"
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ • Asignacion de Tareas
+
+ 2.1. Empresa ACME con logo de Tecsup y datos regionales. --> (Imagen 01, Imagen 02, Imagen 03)
+
+      • Servidor de correo saliente --> (Imagen 04)
+ 
+ 2.2. Modificación de la plantilla de Pedido de Compras y generación de dicho reporte. --> (Imagen 05, Imagen 06)
+
+      • Instalacion de Modulo de Ventas --> (Imagen 07)
+
+      • Demostracion Modulo Ventas --> (Imagen 08, Imagen 09, Imagen 10, Imagen 11, Imagen 12)
+      
+      • Entrega --> (Imagen 13, Imagen 14)
+  
+      • Simulando la Entrega --> (Imagen 15, Imagen 16, Imagen 17)   
+     
+      • Creacion de Factura --> (Imagen 18, Imagen 19)
+    
+
+ 2.3. Generar al menos 5 ventas en el módulo Ventas a tres clientes distintos. --> (Imagen 20, Imagen 21, Imagen 22, Imagen 23, Imagen 24, 
+   
+      Imagen 25, Imagen 26)
+
+ 2.4. Realizar la entrega parcial de dos ventas, y el resto entregar el stock por completo. --> (Imagen 27, Imagen 28, Imagen 29, Imagen 30, Imagen 31)
+
+      • Entregas incompletas --> (Imagen 32, Imagen 33)
+
+      • Entregas completas --> (Imagen 34, Imagen 35, Imagen 36, Imagen 37, Imagen 38, Imagen 39)
+
+ 2.5. Cobrar solamente a dos clientes completamente, mientras que al tercero solamente se le cobrará una venta y tendrá pendiente un saldo. --> (Imagen 40,
+     
+      Imagen 41, Imagen 42, Imagen 43, Imagen 44, Imagen 45)
+
+ 2.6. Instalar el módulo de CRM --> (Imagen 46)
+
+      Generar al menos tres oportunidades de venta en distintas etapas. --> (Imagen 47, Imagen 48, Imagen 49, Imagen 50)
+
+ 
+Observaciones y Conclusiones:
+
+ • En el modulo ventas a diferencia del punto de venta, este tiene un proceso, donde se puede personalizar con el cliente los pedidos,
+   en cambio en punto de venta solo se entregan, reciben los pedidos y termina el proceso.
+
+ • Odoo nos brinda el codigo fuente de las plantillas de informes en general, pudiendo personalizarlas, ademas el codigo es xml fusionado 
+   con html, logrando un facil entendimiento de la interfaz.
+
+ • Con el modulo gestion de ventas, se hacen cotizaciones, ajustes en los pedidos con el cliente, y luego recien se genera el pedido, donde
+   se generan 2 movimientos, el de ticket y el de contabilidad para la factura.
+
+ • 
+ • 
