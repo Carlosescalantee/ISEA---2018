@@ -36,9 +36,13 @@ Carlos Escalante Menauth - Grupo "B"
      
       Imagen 41, Imagen 42, Imagen 43, Imagen 44, Imagen 45)
 
+      • Monedas y Tipo de cambio --> (Imagen 47)
+
  2.6. Instalar el módulo de CRM --> (Imagen 46)
 
-      Generar al menos tres oportunidades de venta en distintas etapas. --> (Imagen 47, Imagen 48, Imagen 49, Imagen 50)
+      Generar al menos tres oportunidades de venta en distintas etapas. --> (Imagen 48, Imagen 49, Imagen 50, Imagen 51)
+
+      • MRP Instalacion de modulo Fabricacion --> (Imagen 52)
 
  
 Observaciones y Conclusiones:
@@ -52,5 +56,9 @@ Observaciones y Conclusiones:
  • Con el modulo gestion de ventas, se hacen cotizaciones, ajustes en los pedidos con el cliente, y luego recien se genera el pedido, donde
    se generan 2 movimientos, el de ticket y el de contabilidad para la factura.
 
- • 
- • 
+ • CRM, es un modulo que nos permite ficelizar clientes, ya sea con presupuestos, reuniones con clientes, y tener una relacion con el cliente.
+
+ • Se vio, entendio, y relaciono con todos los modulos principales de Odoo, ya sea Compras, Ventas, Punto de Venta, Facturacion, Fabriacion,
+   son algunos de los modulos que son mas utilizados por empresas y negocios, debido a su falcil implementacion, y facil entendimiento de la
+   funcionalidad de estos modulos.
+ 

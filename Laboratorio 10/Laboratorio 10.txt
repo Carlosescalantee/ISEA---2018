@@ -1,0 +1,101 @@
+
+Carlos Escalante Menauth - Grupo "B"
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+ • ISEA - 20 Generar plantilla de módulo
+
+ No me permite crear modulos por comando, por lo que le pedi a un compañero que me lo pase recien creado para comenzar a trabajar
+
+ --> (Imagen 01, Imagen 02 Imagen 03, Imagen 04)
+
+ • ISEA - 21 Instalar módulo con dependencia externa
+
+Ya se habia instalado el modulo de reportes de excel en el laboratorio 09, debido a que se vio un cambio en los videos al crear el modulo tecsup,
+se investigo y se hizo lo requerido en el laboratorio.
+ --> (Imagen 05)
+
+ • ISEA - 22 Composición del módulo
+ 
+ --> (Imagen 06, Imagen 07, Imagen 08)
+
+ • ISEA - 23 Campos de modelo
+
+     Ejemplo de campo valido:
+ --> (Imagen 09)
+
+ • ISEA - 24 Módulo Openacademy
+
+ --> (Imagen 10, Imagen 11, Imagen 12, Imagen 13)
+
+ • ISEA - 25 Vistas de formulario
+
+ --> (Imagen 14)
+
+ • ISEA - 26 Vistas de búsqueda
+
+ --> (Imagen 15, Imagen 16)
+
+ • ISEA - 27 Modelo de sesiones
+
+ --> (Imagen 17, Imagen 18)
+
+ • ISEA - 28 Relaciones many2one
+
+ --> (Imagen 20, Imagen 21, Imagen 22, Imagen 23, Imagen 24, Imagen 25)
+
+ • ISEA - 29 Relaciones one2many
+
+ --> (Imagen 26, Imagen 27)
+
+ • ISEA - 30 Relaciones many2many
+
+ --> (Imagen 28, Imagen 29, Imagen 30)
+
+ • ISEA - 31 Heredar un modelo
+
+ --> (Imagen 31, Imagen 32, Imagen 33, Imagen 34)
+
+ • ISEA - 32 Dominios
+
+ --> (Imagen 35, Imagen 36, Imagen 37, Imagen 38)
+
+ • ISEA-33 Campos calculados
+
+ --> (Imagen 39, Imagen 40, Imagen 41)
+
+ • ISEA - 34 Valores por defecto
+
+ --> (Imagen 42, Imagen 43, Imagen 44)
+
+ • ISEA - 35 Evento OnChange
+
+ --> (Imagen 45, Imagen 46)
+
+ • ISEA - 36 Constraint
+
+ --> (Imagen 47, Imagen 48, Imagen 49)
+
+
+ OBSERVACIONES Y CONCLUSIONES:
+
+ • Tanto las extensiones de servidor como de cliente son empaquetadas como modulos que son cargado en bases de datos.
+
+ • Los modulos de Odoo pueden agregar logica de negocio nueva, o modificar una logica ya existente
+ 
+ • Todo en Odoo empieza y termina con modulos y todo modulo es una carpeta.
+
+ • En la composicion creada del modulo Tecsup, los objetos de negocio son por decirlo asi, los archivos e python, los cuales
+   van a tener la logica que se va a tratar en la base de datos, tambien hay los archivos de informacion, que son los xml, o archivos
+   csv, todo archivo que maneje informacion.
+
+ • Un componente clave de Odoo es la capa ORM,que es la capa de excepcion de conexion a la base de datos, la cual nos evita escribir SQL,
+   para nosotros solo enfocarnos en la logica.
+
+ • No es necesario hacer un reinicio de servidor, cuando se modifica archivos xml.
+
+ • En el desarrollo del laboratorio, vimos ejemplos de heredar vistas, y a esas vistas podemos modificarlas, ya sea para egregar formularios, 
+   campos al formulario, etc.
+
+

@@ -1,0 +1,34 @@
+
+Carlos Escalante Menauth - Grupo "B"
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ • Asignacion de Tareas
+
+ 2.1. Detener el servicio de Odoo e iniciar en modo consola. --> (Imagen 01, ERROR Imagen 02)
+ 
+ 2.2. Agregar una carpeta para nuestros módulos de terceros. --> (Imagen 03, Imagen 04)
+ 
+ 2.3. Descargar e instalar el módulo odoo_web_login https://www.odoo.com/apps/modules/11.0/odoo_web_login/ --> (Imagen 05, Imagen 06, Imagen 07)
+ 
+ 2.4. Descargar e instalar un tema de Odoo. --> (Imagen 08, Imagen 09, Imagen 10, Imagen 11, Imagen 12)
+ 
+ 2.5. Buscar e instalar un módulo que permita descargar un archivo Excel de nuestro stock actual. --> (Imagen 13, Imagen 14, Imagen 15, Imagen 16, Imagen 17, Imagen 17.1, Imagen 17.2)
+ 
+ 2.6. Buscar un módulo que me permita agregar los ubigeos de Perú (regiones, provincias, distritos) --> (Imagen 18, Imagen 19, Imagen 20, Imagen 21, Imagen 22)
+
+
+Observaciones y Conclusiones:
+
+ • Instalamos un tema a nuestro Odoo, desde una tienda propia de Odoo, la instalacion fue sencilla, basto con descargar el archivo, copiarlo en nuestra carpeta de modulos,
+   actualizar las aplicaciones, buscar el modulo y listo.
+
+ • Se tiene problemas a la hora de trabajar con la consola de Odoo, nos genera un error de wn32, por lo que se trabajo de forma automatica por servicios.
+
+ • Debido a la gran cantidad y variedad de modulos que tiene Odoo, podemos optimizar el sistema cada vez con mas herramientas, mejores vistas, y por lo tanto mejor aceptacion
+   por parte del cliente a la aplicacion y la empresa.
+
+ • Instalamos herramientas para Odoo, como Ubigeos y reportes en Excel, con estas herramientas podemos mejorar la apariencia, optimizar la aplicacion y opciones propias de Odoo.
+
+ • Se creo una carpeta modulos, en una direccion distintas a la del contenido del Odoo, declaramos la ruta de esa carpeta en nuestro archivo odoo.conf --> path, es ahi donde agregamos 
+   la ruta.
