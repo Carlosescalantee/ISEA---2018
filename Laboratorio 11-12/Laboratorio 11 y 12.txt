@@ -1,0 +1,86 @@
+
+Carlos Escalante Menauth - Grupo "B"
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ • ISEA - 37 Múltiples Bases de Datos
+
+	/web/databases/manager -> podemos hacer Backups, eliminar la base de datos,
+	crear una nueva para un nuevo proyecto, intercalar las bases de datos.
+ --> (Imagen 01, Imagen 02, Imagen 03)
+
+ • ISEA - 38 Decoraciones en vistas
+
+ --> (Imagen 04, Imagen 05, imagen 06, Imagen 07)
+
+ • ISEA - 39 Vistas editables in situ
+
+ --> (Imagen 08, Imagen 09, Imagen 10)
+
+ • ISEA - 40 Vista de Calendario
+
+ --> (Imagen 11, Imagen 12, Imagen 13, Imagen 14, Imagen 15, Imagen 16, Imagen 17, Imagen 18)
+
+ • ISEA - 41 Filtros de busqueda
+
+ --> (Imagen 19, Imagen 20)
+
+ • ISEA 42 Vista de grafico
+
+ --> (Imagen 21, Imagen 22, Imagen 23, Imagen 24, Imagen 25, Imagen 26, Imagen 27)
+
+ • ISEA 43 Vista de kanban
+
+ --> (Imagen 28, Imagen 29, Imagen 30, Imagen 31)
+
+ • ISEA - 44 Grupo de seguridad
+
+ --> (Imagen 32, Imagen 33, Imagen 34, Imagen 35-Grupos, Imagen 36, Imagen 37)
+
+ • ISEA - 45 Grupo personalizado
+
+ --> (Imagen 38, Imagen 39, Imagen 40, Imagen 41)
+
+ • ISEA - 46 Wizards
+
+ --> (Imagen 42, Imagen 43, Imagen 44, Imagen 45)
+
+ • ISEA - 47 Traducción sencilla
+ 
+ --> (Imagen 46, Imagen 47)
+
+ • ISEA - 48 Traducción desde código
+
+ --> (Imagen 48)
+
+ • ISEA - 49 Generación de reportes
+
+ --> (Imagen 49, Imagen 50, Imagen 51, Imagen 52)
+
+ • ISEA - 50 API Externa
+
+ --> (Imagen 53)
+
+ • ISEA - 51 Sitio Web
+
+ --> (Imagen 54, Imagen 55, Imagen 56, Imagen 57)
+
+OBSERVACIONES Y CONCLUSIONES:
+
+ • Odoo cuenta con un gestor de base de datos, donde podemos definir la BD del servicio, hacer Backups, duplicarla, restaurar una BD
+   asi como crear un nuevo proyecto, crear su base de datos, y cambiar de BD desde esa misma vista o desde database/selector.
+ 
+ • Podemos tener un numero sin limite de Bases de datos en nuestro servicio Odoo, lo unico que va a limitar eso, son las caracteristicas
+   y configuracion de PostGresSQL.
+   
+ • Se vio ejemplos de dependecias, las cuales nos indican que los algunos modulos, que queramos instalar y configurar, necesitan de otros modulos o archivos
+   para un correcto funcionamiento sin fallos.
+
+  • Generamos el tipo de vista calendario, de donde podemos administrar sesiones creadas por nosotros, y hasta se puede realizar modificaciones desde
+   ese tipo de vista.
+
+ • wkhtmltopdf, es una libreria que nos permite convertir html en PDF, y mediante esto generar reportes, entendibles y ordenados.
+ 
+ • Se configuro y definio distintas formas de vistas, como por ejemplo, vista Kanban, graficos, barras, esto con el fin de llevar una correcta visualizacion y 
+   entendimiento de los datos con los que trabajamos.
